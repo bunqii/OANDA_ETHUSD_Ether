@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "ETH_USD",
+  "granularity": "M1",
+  "chunk_start": "2020-04-01",
+  "chunk_end": "2020-04-30",
+  "parquet_file": "OANDA_ETHUSD_Ether_1_2020-04-01_to_2020-04-30.parquet",
+  "data_file": "OANDA_ETHUSD_Ether_1_2020-04-01_to_2020-04-30.parquet",
+  "row_count": 30035,
+  "first_candle": {
+    "time": 1585699200,
+    "Time": "2020-04-01T00:00:00.000000000Z",
+    "open": 132.96,
+    "high": 133.0,
+    "low": 132.86,
+    "close": 132.86,
+    "volume": 163
+  },
+  "last_candle": {
+    "time": 1588291140,
+    "Time": "2020-04-30T23:59:00.000000000Z",
+    "open": 205.98,
+    "high": 206.47,
+    "low": 205.66,
+    "close": 206.08,
+    "volume": 210
+  },
+  "csv_file": "OANDA_ETHUSD_Ether_1_2020-04-01_to_2020-04-30.parquet",
+  "csv_row_count": 30035,
+  "csv_first_candle": {
+    "time": 1585699200,
+    "Time": "2020-04-01T00:00:00.000000000Z",
+    "open": 132.96,
+    "high": 133.0,
+    "low": 132.86,
+    "close": 132.86,
+    "volume": 163
+  },
+  "csv_last_candle": {
+    "time": 1588291140,
+    "Time": "2020-04-30T23:59:00.000000000Z",
+    "open": 205.98,
+    "high": 206.47,
+    "low": 205.66,
+    "close": 206.08,
+    "volume": 210
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T21:11:37.000000000Z",
+  "generated_at": "2026-10-15T21:11:37.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 714,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2020-03-29T00:21:00Z",
+        "to": "2020-04-01T11:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-01T11:41:00Z",
+        "to": "2020-04-04T23:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-04T23:01:00Z",
+        "to": "2020-04-08T10:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-08T10:21:00Z",
+        "to": "2020-04-11T21:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-11T21:41:00Z",
+        "to": "2020-04-15T09:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-15T09:01:00Z",
+        "to": "2020-04-18T20:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-18T20:21:00Z",
+        "to": "2020-04-22T07:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-22T07:41:00Z",
+        "to": "2020-04-25T19:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-25T19:01:00Z",
+        "to": "2020-04-29T06:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-04-29T06:21:00Z",
+        "to": "2020-05-02T17:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

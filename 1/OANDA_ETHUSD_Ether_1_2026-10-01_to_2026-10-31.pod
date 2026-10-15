@@ -1,0 +1,89 @@
+{
+  "pod_version": "4.0",
+  "instrument": "ETH_USD",
+  "granularity": "M1",
+  "chunk_start": "2026-10-01",
+  "chunk_end": "2026-10-31",
+  "parquet_file": "OANDA_ETHUSD_Ether_1_2026-10-01_to_2026-10-31.parquet",
+  "data_file": "OANDA_ETHUSD_Ether_1_2026-10-01_to_2026-10-31.parquet",
+  "row_count": 15625,
+  "first_candle": {
+    "time": 1790812800,
+    "Time": "2026-10-01T00:00:00.000000000Z",
+    "open": 2684.55,
+    "high": 2685.8,
+    "low": 2683.25,
+    "close": 2683.5,
+    "volume": 107
+  },
+  "last_candle": {
+    "time": 1792098600,
+    "Time": "2026-10-15T21:10:00.000000000Z",
+    "open": 2450.75,
+    "high": 2454.05,
+    "low": 2450.75,
+    "close": 2453.9,
+    "volume": 59
+  },
+  "csv_file": "OANDA_ETHUSD_Ether_1_2026-10-01_to_2026-10-31.parquet",
+  "csv_row_count": 15625,
+  "csv_first_candle": {
+    "time": 1790812800,
+    "Time": "2026-10-01T00:00:00.000000000Z",
+    "open": 2684.55,
+    "high": 2685.8,
+    "low": 2683.25,
+    "close": 2683.5,
+    "volume": 107
+  },
+  "csv_last_candle": {
+    "time": 1792098600,
+    "Time": "2026-10-15T21:10:00.000000000Z",
+    "open": 2450.75,
+    "high": 2454.05,
+    "low": 2450.75,
+    "close": 2453.9,
+    "volume": 59
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-15T21:11:56.000000000Z",
+  "generated_at": "2026-10-15T21:11:56.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 714,
+    "chunk_api_blocks": 5,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-09-29T00:21:00Z",
+        "to": "2026-10-02T11:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-02T11:41:00Z",
+        "to": "2026-10-05T23:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-05T23:01:00Z",
+        "to": "2026-10-09T10:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-09T10:21:00Z",
+        "to": "2026-10-12T21:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-12T21:41:00Z",
+        "to": "2026-10-15T21:11:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
