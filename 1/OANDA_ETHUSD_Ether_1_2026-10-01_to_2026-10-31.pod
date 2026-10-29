@@ -6,7 +6,7 @@
   "chunk_end": "2026-10-31",
   "parquet_file": "OANDA_ETHUSD_Ether_1_2026-10-01_to_2026-10-31.parquet",
   "data_file": "OANDA_ETHUSD_Ether_1_2026-10-01_to_2026-10-31.parquet",
-  "row_count": 27597,
+  "row_count": 29053,
   "first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 107
   },
   "last_candle": {
-    "time": 1793164560,
-    "Time": "2026-10-28T05:16:00.000000000Z",
-    "open": 2350.1,
-    "high": 2350.15,
-    "low": 2349.6,
-    "close": 2350.15,
-    "volume": 63
+    "time": 1793252160,
+    "Time": "2026-10-29T05:36:00.000000000Z",
+    "open": 2324.95,
+    "high": 2327.1,
+    "low": 2324.8,
+    "close": 2326.95,
+    "volume": 77
   },
   "csv_file": "OANDA_ETHUSD_Ether_1_2026-10-01_to_2026-10-31.parquet",
-  "csv_row_count": 27597,
+  "csv_row_count": 29053,
   "csv_first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 107
   },
   "csv_last_candle": {
-    "time": 1793164560,
-    "Time": "2026-10-28T05:16:00.000000000Z",
-    "open": 2350.1,
-    "high": 2350.15,
-    "low": 2349.6,
-    "close": 2350.15,
-    "volume": 63
+    "time": 1793252160,
+    "Time": "2026-10-29T05:36:00.000000000Z",
+    "open": 2324.95,
+    "high": 2327.1,
+    "low": 2324.8,
+    "close": 2326.95,
+    "volume": 77
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-28T05:17:57.000000000Z",
-  "generated_at": "2026-10-28T05:17:57.000000000Z",
+  "verified_at": "2026-10-29T05:37:52.000000000Z",
+  "generated_at": "2026-10-29T05:37:52.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-10-27T04:54:00Z",
-        "to": "2026-10-28T05:17:00Z",
+        "from": "2026-10-28T05:11:00Z",
+        "to": "2026-10-29T05:37:00Z",
         "code": 200,
         "msg": "OK"
       }
