@@ -6,7 +6,7 @@
   "chunk_end": "2029-12-31",
   "parquet_file": "OANDA_ETHUSD_Ether_D_2020-01-01_to_2029-12-31.parquet",
   "data_file": "OANDA_ETHUSD_Ether_D_2020-01-01_to_2029-12-31.parquet",
-  "row_count": 1877,
+  "row_count": 1878,
   "first_candle": {
     "time": 1578002400,
     "Time": "2020-01-02T22:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 67747
   },
   "last_candle": {
-    "time": 1793829600,
-    "Time": "2026-11-04T22:00:00.000000000Z",
-    "open": 2417.69,
-    "high": 2442.55,
-    "low": 2215.6,
-    "close": 2229.25,
-    "volume": 139099
+    "time": 1793916000,
+    "Time": "2026-11-05T22:00:00.000000000Z",
+    "open": 2232.44,
+    "high": 2247.3,
+    "low": 2202.55,
+    "close": 2235.9,
+    "volume": 139482
   },
   "csv_file": "OANDA_ETHUSD_Ether_D_2020-01-01_to_2029-12-31.parquet",
-  "csv_row_count": 1877,
+  "csv_row_count": 1878,
   "csv_first_candle": {
     "time": 1578002400,
     "Time": "2020-01-02T22:00:00.000000000Z",
@@ -37,26 +37,26 @@
     "volume": 67747
   },
   "csv_last_candle": {
-    "time": 1793829600,
-    "Time": "2026-11-04T22:00:00.000000000Z",
-    "open": 2417.69,
-    "high": 2442.55,
-    "low": 2215.6,
-    "close": 2229.25,
-    "volume": 139099
+    "time": 1793916000,
+    "Time": "2026-11-05T22:00:00.000000000Z",
+    "open": 2232.44,
+    "high": 2247.3,
+    "low": 2202.55,
+    "close": 2235.9,
+    "volume": 139482
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-06T06:36:34.000000000Z",
-  "generated_at": "2026-11-06T06:36:34.000000000Z",
+  "verified_at": "2026-11-07T05:47:21.000000000Z",
+  "generated_at": "2026-11-07T05:47:21.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 2,
+    "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
     "chunk_permanent_errors": 0,
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2018-09-10T00:00:00Z",
-        "to": "2026-11-05T22:00:00Z",
+        "from": "2026-11-03T22:00:00Z",
+        "to": "2026-11-06T22:00:00Z",
         "code": 200,
         "msg": "OK"
       }
